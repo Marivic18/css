@@ -1,0 +1,125 @@
+*,
+::before,
+::after { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+
+.container{ 
+   display: flex;    
+   height: 100vh;
+   font-family: 'Roboto', sans-serif;
+   
+}
+
+.ladoizq{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .barra{
+    height: 10vh;
+    display: flex;
+    width: 100%;
+    padding: 10px;
+ }
+
+ .barra-perfil{
+    display: flex;
+    width: 80%;
+}
+
+ .barra-perfil-img{
+    margin-right: 10px;
+    border-radius: 30px;
+    
+ }
+
+ .barra-perfil-nombre{
+    padding: 0px 10xp;
+ }
+
+ .boton{
+    border: solid rgb(206, 204, 204) 1px;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .boton button{
+    padding: 20px 40px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(189, 117, 200);
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+ }
+
+ .boton button:hover{
+    background-color: rgb(202, 176, 206);
+    color: black;
+ }
+
+ .contactos{
+    border: solid rgb(220, 218, 218) 1px;
+    height: 70vh;
+    overflow: scroll;
+ }
+
+ .barra-iconos{
+    display: flex;
+    width: 15%;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .barra-iconos i{
+    padding: 3px;
+ } 
+ 
+ .contactocard{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    border: solid rgb(220, 218, 218) 1px;
+ }
+
+ .contactocard-img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 30px;
+ }
+
+
+ .contactocard-nombre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+
+ .ladoder{ 
+    border: solid rgb(220, 218, 218) 1px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 232, 232);
+ }
+
+
+
+ .ladoder-info{  
+    text-align: center;
+
+ }
+
+
+
